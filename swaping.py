@@ -1,11 +1,9 @@
-a = int(input("Enter the value of a :"))
-b = int(input("enter the value of b :"))
-c = 0
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
+if num1 == num2:
+    print("Both numbers are equal. No swapping needed!")
+else:
+    num1, num2 = num2, num1
 
-if(a!=b):
-    a=b
-    b=c
-    
-    
-print(a , b)
+print(num1, num2)
