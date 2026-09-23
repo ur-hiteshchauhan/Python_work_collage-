@@ -1,4 +1,3 @@
-
 # Assigning an initial value
 
 a = 10

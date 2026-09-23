@@ -1,10 +1,8 @@
-# Given values
 principal = 500000        
 rate1 = 10                 
 years1 = 2                
 rate_increase = 0.5        
 years2 = 3                 
-
 
 simple_interest = (principal * rate1 * years1) / 100
 amount_after_2_years = principal + simple_interest
